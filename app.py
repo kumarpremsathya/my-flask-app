@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello kumar prem from Azure!"
+    return "Hello kumar prem from Azure!  for testing purpose only"
 
 if __name__ == "__main__":
     app.run()
